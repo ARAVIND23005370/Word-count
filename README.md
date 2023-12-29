@@ -20,6 +20,8 @@ End the program
 #Program to for getting the word count from a text.
 #Developed by:ARAVIND R
 #Register Number:23005370
+from google.colab import drive
+drive.mount('/content/drive')
 f=open('aravind.txt','r')
 b=f.read()
 d=0
@@ -29,6 +31,7 @@ for i in c:
 print('The number of words:',d)
 ```
 ### OUTPUT:
+![aravind r](https://github.com/ARAVIND23005370/Word-count/assets/148514836/2c77470c-3868-4100-81a9-f7900b4bc33a)
 
 ## RESULT:
 Thus the program is written to find the word count from a text.
